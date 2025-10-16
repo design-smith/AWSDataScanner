@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws logs tail:*)",
+      "Bash(aws logs filter-log-events:*)",
+      "Bash(aws sqs:*)",
+      "Bash(curl -s \"https://a0fhwoouck.execute-api.us-east-1.amazonaws.com/dev/jobs/ab12233f-2510-4d3c-a8ca-05eb68c5211d\")",
+      "Bash(python:*)",
+      "Bash(curl -X POST \"https://a0fhwoouck.execute-api.us-east-1.amazonaws.com/dev/scan\" -H \"Content-Type: application/json\" -d \"{\"\"job_name\"\": \"\"PII Scan - Final Test\"\", \"\"s3_bucket\"\": \"\"aws-data-scanner-data-dev-580165054001\"\", \"\"s3_prefix\"\": \"\"test-data/\"\"}\")",
+      "Bash(curl -s \"https://a0fhwoouck.execute-api.us-east-1.amazonaws.com/dev/jobs/a34ad789-26fd-428c-93b6-727f63ccf42b\")",
+      "Bash(export MSYS_NO_PATHCONV=1)",
+      "Bash(aws logs:*)",
+      "Bash(curl -s \"https://a0fhwoouck.execute-api.us-east-1.amazonaws.com/dev/results?limit=10\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

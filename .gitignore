@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform.tfstate.d/
+
+# AWS
+.aws/
+
+# Generated test data
+test-files/
+test-data/
+**/test_*.txt
+**/mixed_*.txt
+generated_files/
+
+# Lambda packages
+lambda_fresh/
+lambda_docker.zip
+lambda_fix.zip
+*.zip
+package/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+*.pem
+*.key
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+node_modules/
+*.jar
+*.war
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Docker
+docker-compose.override.yml
+
+# Scripts output
+/fix_db.py
+/add_constraint.py
+
+nul
