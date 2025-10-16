@@ -2,6 +2,12 @@
 
 A serverless PII (Personally Identifiable Information) detection system that scans S3 files for sensitive data using AWS Lambda, ECS Fargate, and RDS PostgreSQL.
 
+## Demo Video
+
+[![AWS Data Scanner Demo](https://img.youtube.com/vi/Q5tZH1NQfcI/maxresdefault.jpg)](https://youtu.be/Q5tZH1NQfcI)
+
+**Watch the full demo:** [https://youtu.be/Q5tZH1NQfcI](https://youtu.be/Q5tZH1NQfcI)
+
 ## Overview
 
 AWS Data Scanner automatically detects sensitive information in text files stored in S3, including:
